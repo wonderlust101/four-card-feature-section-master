@@ -1,0 +1,20 @@
+// Colors
+$colors: (
+  // Main Colors
+        accent-color: (
+                'red': #ea5454,
+                'green': #44d3d2,
+                'yellow': #fcae4a,
+                'blue': #549ef2,
+        ),
+  // Text Color
+        text: #4d4f62,
+  // Other
+        background: #fafafa,
+        white: #ffffff,
+);
+
+// Breakpoints
+$breakpoints: (
+        medium: 64.0625rem
+);

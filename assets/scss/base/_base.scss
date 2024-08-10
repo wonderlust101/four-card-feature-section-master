@@ -1,0 +1,21 @@
+@use '../abstract' as a;
+
+:root {
+  @include a.map-to-root(a.$colors);
+}
+
+body {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 4rem;
+  background-color: var(--clr-background);
+}
+
+header {
+  display: grid;
+  gap: 1rem;
+  margin-top: 5rem;
+  max-width: min(90%, 33.75rem);
+  text-align: center;
+}
