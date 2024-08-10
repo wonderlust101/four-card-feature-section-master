@@ -15,10 +15,11 @@ body {
 header {
   display: grid;
   gap: 1rem;
+  margin-top: 5rem;
   max-width: min(90%, 33.75rem);
   text-align: center;
 
   @include a.breakpoint(medium) {
-    margin-top: 5rem;
+    margin-top: 0;
   }
 }
